@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\n\ this\ is\ the\ blueprint\ class\ for\ Board,\ it\ has\ a\ static\ variable\n\ called\ gameboard,\ which\ is\ a\ board\ of\ size\ 3x3\ that\ will\ be\ used\ \n\ for\ the\ game,\ it\ also\ contains\ three\ methods,\ the\ first\ method\ is\n\ a\ boolean\ method\ called\ tiedGame,\ it\ returns\ a\ boolean\ value\ \n\ that\ tells\ the\ players\ whether\ it\ is\ a\ tied\ game.\ The\ second\ method\n\ called\ checkWinner,\ it\ checks\ if\ there\ are\ three\ identical\ symbols\ in\n\ a\ row,\ whether\ vertically,\ horizontally\ or\ diagonally,\ if\ there\ is\ a\n\ winner,\ it\ will\ return\ the\ player's\ symbol('O'\ OR\ 'X'),\ if\ their\ is\ not\ a\n\ winner\ yet,\ it\ will\ return\ '-'.\ The\ third\ method\ is\ printBoard,\ this\ \n\ method\ simply\ prints\ out\ the\ symbol\ at\ each\ position.\n\ \n
+comment1.params=
+comment1.target=Board()
+comment2.params=gameBoard
+comment2.target=Board(char[][])
+comment3.params=board
+comment3.target=boolean\ tiedGame(char[][])
+comment4.params=board
+comment4.target=char\ checkWinner(char[][])
+comment5.params=board
+comment5.target=void\ printBoard(char[][])
+numComments=6
